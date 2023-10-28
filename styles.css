@@ -1,14 +1,24 @@
 /*  your css code here. If applicable */
 /* Center align text inside the cards */
-.card-title, .card-text {
-    text-align: center;
-}
 
+.inner{
+    overflow: hidden;
+  
+  }
+  .inner img{
+    transition: all 1.5s ease;
+  
+  }
+ 
 /* Add a border radius to the cards */
 .card {
     border-radius: 15px;
+	width: 100px;
 }
-
+.card img {
+    max-width: 70%; /* This ensures the image is not wider than the card */
+    height: auto;    /* Maintain the image's aspect ratio */
+}
 /* Style for the lightbox modal */
 .modal {
     display: none; /* Hide by default */
